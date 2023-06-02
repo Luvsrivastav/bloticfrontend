@@ -38,7 +38,7 @@ export default function Example() {
   async function googellogin() {
     try {
       getUser();
-      window.open(`https://blotic.org/auth/google`, "_self");
+      window.open(`http://blotic.org/auth/google`, "_self");
 
       console.log("lccgh");
     } catch (err) {
